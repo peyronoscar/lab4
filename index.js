@@ -7,7 +7,8 @@ async function processLineByLine() {
     output: process.stdout,
   });
 
-  //comment
+  // comment
+  // commnet 2
 
   rlInput.question("Enter filename: ", async (filename) => {
     const fileStream = fs.createReadStream(filename);
